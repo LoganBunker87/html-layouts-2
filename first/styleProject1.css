@@ -1,0 +1,82 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+.firstRow1{
+  height: 20%;
+  width: 30%;
+  background-color: red;
+  /*display: inline;*/
+  position: absolute;
+  margin-left: 1%;
+  margin-top: 0%;
+}
+.firstRow2{
+  height: 20%;
+  width: 30%;
+  background-color: blue;
+  /*display: inline;*/
+  position: absolute;
+  margin-left: 33%;
+  margin-top: 0%;
+}
+.firstRow3{
+  height: 20%;
+  width: 30%;
+  background-color: gray;
+  /*display: inline;*/
+  position: absolute;
+  margin-left: 66%;
+  margin-top: 0%;
+}
+.words{
+  background-color: inherit;
+  margin-top: 10%;
+  height: 30%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+}
+.secondRow1{
+  height: 30%;
+  width: 35%;
+  background-color: red;
+  position: absolute;
+  margin-top: 25%;
+
+}
+.secondRow2{
+  margin-left: 35%;
+  height: 30%;
+  width: 65%;
+  background-color: blue;
+  position: absolute;
+  margin-top: 25%;
+}
+.thirdRow1{
+  margin-left: 1%;
+  height: 15%;
+  width: 65%;
+  background-color: blue;
+  position: absolute;
+  margin-top: 45%;
+}
+.thirdRow2{
+  /*position: relative;*/
+  margin-left: 65%;
+  height: 15%;
+  width: 35%;
+  background-color: red;
+  position: absolute;
+  margin-top: 45%;
+}
+.thirdRow3{
+position: absolute;
+margin-left: 75%;
+height: 15%;
+width: 20%;
+background-color: gray;
+margin-top: 45%;
+}
